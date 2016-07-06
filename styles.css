@@ -2,25 +2,28 @@
     padding: 0;
     margin: 0;
 }
+
 .container {
-  width: 449px;
-  height: 319px;
-  padding: 0;
-  margin:120px auto;
-  border: 1px solid black;
+    width: 440px;
+    height: 444px;
+    border: 2px solid black;
+    margin: 120px auto;
 }
 
 .box {
-  width: 141px;
-  height: 100px;
-  border: 1px solid #000;
-  margin: 2px;
-  line-height: 100px;
-  text-align: center;
+    width: 138px;
+    height: 140px;
+    border: 2px solid black;
+    background: rgba(14, 150, 140, 0.8);
+    font-size: 40px;
+    float: left;
+    margin: 2px;
+    line-height: 140px;
+    justify-content: center;
 }
 
 .first-row,
 .second-row,
 .third-row {
-  display: inline;
+    display: inline-flex;
 }
