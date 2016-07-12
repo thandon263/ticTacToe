@@ -7,7 +7,7 @@
     width: 440px;
     height: 444px;
     border: 2px solid black;
-    margin: 120px auto;
+    margin: 20px auto;
 }
 
 .box {
@@ -26,4 +26,28 @@
 .second-row,
 .third-row {
     display: inline-flex;
+}
+
+.O {
+    background: #cff;
+}
+
+.X {
+    background: #fff;
+}
+
+.logo {
+    margin: 50px auto;
+    margin-left: 200px;
+}
+
+section {
+    border: 2px solid black;
+    margin: 50px;
+    width: 300px;
+}
+
+.key {
+    margin-left: 34px;
+    width: 200px;
 }
